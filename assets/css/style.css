@@ -3024,11 +3024,11 @@ table tbody tr td {
 
 .header-topbar .navbar-brand .logo {
   line-height: 82px;
-  /* width: 50%; */
+  /* width: 30%; */
 }
 
 .logo-om {
-  width: 10%;
+  width: 30%;
 }
 
 /* Header full */
@@ -3239,6 +3239,7 @@ ul.dropdown-menu > li.has-dropdown > a:before {
     margin-left: 15px;
     height: 100px;
     line-height: 100px;
+    width: 60%;
   }
 
   .navbar-toggler {
@@ -3252,6 +3253,10 @@ ul.dropdown-menu > li.has-dropdown > a:before {
   .navbar-collapse {
     background-color: #ffffff;
     padding: 0 15px;
+  }
+
+  .nav-container {
+    display: flex !important;
   }
 
   /* Navabr */

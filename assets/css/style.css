@@ -9006,11 +9006,18 @@ footer .widget-instagram .insta-hover i {
 #Video
 \*------------------------------------*/
 .video--button {
-  height: 487px;
+  /* height: 487px; */
+  height: 387px;
   position: relative;
 }
 
-.video-overlay {
+.logo__video {
+  margin-top: 70px;
+  /* width: 550px; */
+  height: 350px;
+}
+
+/* .video-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -9033,7 +9040,7 @@ footer .widget-instagram .insta-hover i {
   background-image: -o-linear-gradient(bottom, #1b1a1a, rgba(0, 0, 0, 0.2));
   background-image: linear-gradient(bottom, #1b1a1a, rgba(0, 0, 0, 0.2));
   opacity: 0.8;
-}
+} */
 
 .video--content {
   border-radius: 1px;
@@ -9157,6 +9164,12 @@ footer .widget-instagram .insta-hover i {
 
   .video-2 .heading {
     margin-bottom: 50px;
+  }
+
+  .logo__video {
+    margin-top: 300px;
+    /* width: 550px; */
+    height: 350px;
   }
 }
 

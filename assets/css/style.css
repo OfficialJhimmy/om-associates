@@ -1488,7 +1488,7 @@ blockquot {
 
 /* Button Rounded */
 .btn--rounded {
-  border-radius: 50px;
+  border-radius: 7px;
 }
 
 /* Button Link */
@@ -4762,6 +4762,7 @@ ul.dropdown-menu > li.has-dropdown > a:before {
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .slider .slide--headline {
     line-height: 1.1;
+    font-size: 30px;
   }
 
   .slider .slide--bio {
@@ -9013,7 +9014,7 @@ footer .widget-instagram .insta-hover i {
 
 .logo__video {
   margin-top: 70px;
-  /* width: 550px; */
+  width: 500px;
   height: 350px;
 }
 
@@ -9168,7 +9169,8 @@ footer .widget-instagram .insta-hover i {
 
   .logo__video {
     margin-top: 300px;
-    /* width: 550px; */
+    /* margin-right: 40px; */
+    width: 300px !important;
     height: 350px;
   }
 }

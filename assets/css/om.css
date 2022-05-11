@@ -1,0 +1,133 @@
+/* HomePage Insights*/
+
+.other__services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-om {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.industries {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 60px;
+}
+
+.industries-heading {
+  text-align: center;
+}
+
+.industries-heading h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.industries--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.industries--child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.industries--child img {
+  width: 20%;
+}
+
+.industries--child h3 {
+  font-size: 15px;
+  margin-top: 17px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.other-img {
+  width: 50%;
+  height: 50%;
+}
+
+.other__services-content {
+  margin-left: 30px;
+}
+
+.other__services--heading {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.other__services p,
+.other__services ul {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+@media screen and (max-width: 680px) {
+  .other__services {
+    display: flex;
+    flex-direction: column;
+    padding: 90px 20px;
+  }
+
+  .about-om {
+    display: block;
+  }
+
+  .industries {
+    padding: 90px 20px;
+  }
+
+  .industries-heading h2 {
+    font-size: 17px;
+  }
+
+  .industries--container {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .industries--child img {
+    width: 20%;
+  }
+
+  .industries--child h3 {
+    font-size: 14px;
+    margin-top: 14px;
+  }
+
+  .other-img {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .other__services-content {
+    margin-left: 0;
+  }
+
+  .other__services--heading {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+}

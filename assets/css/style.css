@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap");
+
 body,
 html {
   overflow-x: hidden;
@@ -10,11 +12,10 @@ html {
 
 body {
   background-color: #ffffff;
-  /* font-family: "Roboto", sans-serif; */
   font-family: "Poppins", sans-serif;
   font-size: 13px;
   font-weight: 400;
-  color: #9b9b9b;
+  /* color: #9b9b9b; */
   line-height: 1.5;
   margin: 0;
 }
@@ -31,7 +32,8 @@ body {
 }
 
 ::selection {
-  background-color: #a0d334;
+  /* background-color: #a0d334; */
+  background-color: goldenrod;
   color: #ffffff;
   text-shadow: none;
 }
@@ -41,22 +43,26 @@ a {
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  color: #a0d334;
+  /* color: #a0d334; */
+  color: goldenrod;
 }
 
 a:hover {
-  color: #82ae26;
+  /* color: #82ae26; */
+  color: goldenrod;
   text-decoration: none;
 }
 
 a:focus {
-  color: #82ae26;
+  /* color: #82ae26; */
+  color: goldenrod;
   outline: none;
   text-decoration: none;
 }
 
 a:active {
-  color: #82ae26;
+  /* color: #82ae26; */
+  color: goldenrod;
   outline: none;
   text-decoration: none;
 }
@@ -154,10 +160,11 @@ h6 {
 }
 
 p {
-  color: #333;
-  font-size: 14px;
   font-weight: 400;
-  line-height: 22px;
+  /* line-height: 22px; */
+  font-size: 14px;
+  line-height: 25px;
+  color: #444;
 }
 
 .lead {
@@ -238,7 +245,8 @@ p {
 }
 
 .text-theme {
-  color: #a0d334 !important;
+  /* color: #a0d334 !important; */
+  color: goldenrod !important;
 }
 
 .text--capitalize {
@@ -288,7 +296,8 @@ p {
 }
 
 .higlighted-style1 {
-  background-color: #a0d334;
+  /* background-color: #a0d334; */
+  background-color: goldenrod;
   color: #fff;
   padding: 5px 0;
 }
@@ -301,7 +310,8 @@ p {
 
 .higlighted-style3 {
   background-color: #f9f9f9;
-  color: #a0d334;
+  /* color: #a0d334; */
+  color: goldenrod;
   padding: 5px 0;
 }
 
@@ -313,7 +323,8 @@ p {
 }
 
 .color-theme {
-  color: #a0d334 !important;
+  /* color: #a0d334 !important; */
+  color: goldenrod !important;
 }
 
 .color-white {
@@ -2756,25 +2767,25 @@ table tbody tr td {
     #Heading
 \*------------------------------------*/
 .heading .heading--subtitle {
-  font-family: "Poppins", sans-serif;
-  color: #a0d334;
-  font-size: 14px;
-  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+  color: goldenrod;
+  font-size: 20px;
+  font-weight: 400;
   line-height: 1;
   margin-bottom: 7px;
 }
 
 .heading .heading--title {
   font-family: "Poppins", sans-serif;
-  font-size: 36px;
-  font-weight: 600;
+  color: goldenrod;
+  font-size: 33px;
+  font-weight: 400;
   line-height: 45px;
   margin-bottom: 17px;
 }
 
 .heading .heading--desc {
-  color: #a5a5a5;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 24px;
   margin-bottom: 0;
@@ -5196,7 +5207,7 @@ a.gallery-more i {
 }
 
 .feature-card .feature-card-desc {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 24px;
 }
@@ -9887,7 +9898,7 @@ footer .widget-instagram .insta-hover i {
 }
 
 .info-card .info-card-desc {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 23px;
   margin-bottom: 15px;
@@ -11025,9 +11036,9 @@ footer .widget-instagram .insta-hover i {
 }
 
 .about .about--text p {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 25px;
-  color: #a5a5a5;
+  color: #444;
   margin-bottom: 14px;
 }
 

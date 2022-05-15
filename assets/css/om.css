@@ -172,6 +172,11 @@
     margin-top: -20px;
     font-size: 18px;
   }
+
+  .banner-mrom img {
+    width: 500px;
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 1000px) and (min-width: 700px) {

@@ -9030,9 +9030,9 @@ footer .widget-instagram .insta-hover i {
 }
 
 .logo__video {
-  margin-top: 70px;
-  width: 500px;
-  height: 350px;
+  margin-top: 130px;
+  width: 700px;
+  height: 550px;
 }
 
 /* .video-overlay {
@@ -9183,11 +9183,16 @@ footer .widget-instagram .insta-hover i {
   .video-2 .heading {
     margin-bottom: 50px;
   }
-
+/* 
   .logo__video {
     margin-top: 300px;
-    /* margin-right: 40px; */
     width: 300px !important;
+    height: 350px;
+  } */
+
+  .logo__video {
+    margin-top: 130px;
+    width: 400px;
     height: 350px;
   }
 }

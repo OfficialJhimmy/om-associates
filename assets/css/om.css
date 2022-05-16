@@ -80,9 +80,9 @@
 
 .heading--video,
 .gallery-container-video h3 {
-  font-size: 40px;
-  font-weight: 500;
-  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  font-weight: 400;
+  /* font-family: "Dancing Script", cursive; */
   color: goldenrod;
   margin-bottom: 30px;
 }

@@ -78,7 +78,8 @@
   line-height: 26px;
 }
 
-.heading--video {
+.heading--video,
+.gallery-container-video h3 {
   font-size: 40px;
   font-weight: 500;
   font-family: "Dancing Script", cursive;
@@ -116,6 +117,17 @@
 .banner-mrom img {
   width: 640px;
   height: 800px;
+}
+
+.gallery-container-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gallery-container-video h3 {
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 680px) {
@@ -176,6 +188,16 @@
   .banner-mrom img {
     width: 400px;
     height: 400px;
+  }
+
+  .gallery__video {
+    width: 350px;
+    height: 350px;
+  }
+
+  .heading--video,
+  .gallery-container-video h3 {
+    font-size: 30px;
   }
 }
 

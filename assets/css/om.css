@@ -130,6 +130,10 @@
   margin-top: 20px;
 }
 
+.whatsapp-btn {
+  /* border: 1px solid red; */
+  overflow: hidden !important;
+}
 @media screen and (max-width: 680px) {
   .other__services {
     display: flex;
